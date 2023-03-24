@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600;700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.social {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contact:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.social_links a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social_links a:hover {
+  color: white;
+}
+
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+
+.navbar-toggler{
+  border: none;
+}
+
+.btn-close-white{
+  filter: none;
+}
+
+.offcanvas.offcanvas-start{
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem;
+  letter-spacing: 0.8px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 15px;
+  color: #222222 !important;
+}
+
+
+.dropdown .dropdown-menu{
+  display: none;
+
+}
+
+.dropdown:hover>.dropdown-menu, .dropend:hover>.dropdown-menu{
+  display: block;
+  margin-top: 0.125em;
+}
+
+.dropend:hover>.dropdown-menu{
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 0.125em;
+}
+
